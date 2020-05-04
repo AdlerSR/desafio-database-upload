@@ -11,9 +11,9 @@ Esse projeto foi feito durante o bootcamp da [Rocketseat💜](https://rocketseat
 
 ## Proposta
 
--Criar um sistema back-end que consiga importar arquivos csv
--armazenar as informações desse arquivo no banco de dados
--calcular o income e outcome, não deixando o outcome ser maior do que o total.
+- Criar um sistema back-end que consiga importar arquivos csv
+- armazenar as informações desse arquivo no banco de dados
+- calcular o income e outcome, não deixando o outcome ser maior do que o total.
 
 ## Como usar
 
@@ -24,15 +24,15 @@ Entre na pasta do projeto e instale as dependência usando o comando
 > yarn || npm install
 
 Depois que instalar as dependênciar é necessário gerar as migrations para criar as tabelas no banco
->yarn typeorm migration:run || npm typeorm migration:run
+> yarn typeorm migration:run || npm typeorm migration:run
 
 Agora que ja fez tudo rode o projeto usando o comando
 > yarn dev || npm dev:server
 
 ## Observações
 
--Se quiser ter uma experiência melhor recomendo instalar o [Insomnia](https://insomnia.rest/download/), Se nunca usou essa ferramenta a rocketseat tem um [Vídeo explicando como usar](https://www.youtube.com/watch?v=3tB0uDliS6Y).  
--No arquivo ormconfig.json, coloque as informações necessárias para conectar com o seu banco de dados
+- Se quiser ter uma experiência melhor recomendo instalar o [Insomnia](https://insomnia.rest/download/), Se nunca usou essa ferramenta a rocketseat tem um [Vídeo explicando como usar](https://www.youtube.com/watch?v=3tB0uDliS6Y).  
+- No arquivo ormconfig.json, coloque as informações necessárias para conectar com o seu banco de dados
 
 ## Rotas
 Listar as transações do banco: GET
