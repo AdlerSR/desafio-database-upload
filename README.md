@@ -34,7 +34,7 @@ Depois que instalar as dependênciar é necessário gerar as migrations para cri
 
 Agora que ja fez tudo rode o projeto usando o comando:
 #### Yarn
-> yarn dev 
+> yarn dev:server
 #### NPM
 > npm dev:server
 
