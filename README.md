@@ -17,17 +17,26 @@ Esse projeto foi feito durante o bootcamp da [Rocketseat💜](https://rocketseat
 
 ## Como usar
 
-Antes de começar de um clone desse repositório no seu computador:
+Antes de começar faça um clone desse repositório no seu computador:
 > git clone https://github.com/adilier/desafio-database-upload.git
 
 Entre na pasta do projeto e instale as dependência usando o comando:
-> yarn || npm install
+#### Yarn
+> yarn 
+#### NPM
+> npm install
 
 Depois que instalar as dependênciar é necessário gerar as migrations para criar as tabelas no banco:
-> yarn typeorm migration:run || npm typeorm migration:run
+#### Yarn
+> yarn typeorm migration:run 
+#### NPM
+> npm typeorm migration:run
 
 Agora que ja fez tudo rode o projeto usando o comando:
-> yarn dev || npm dev:server
+#### Yarn
+> yarn dev 
+#### NPM
+> npm dev:server
 
 ## Observações
 
